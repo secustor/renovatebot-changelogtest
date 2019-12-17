@@ -1,5 +1,5 @@
 module "foo" {
-  source  = "github.com/terraform-aws-modules/terraform-aws-eks?ref=v6.0.0"
+  source  = "github.com/terraform-aws-modules/terraform-aws-eks?ref=v7.0.1"
 }
 module "consul" {
   source    = "hashicorp/consul/aws"
