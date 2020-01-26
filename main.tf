@@ -3,7 +3,7 @@ module "foo" {
 }
 module "consul" {
   source    = "hashicorp/consul/aws"
-  version   = "0.1.0"
+  version   = "0.7.4"
 }
 provider "azurerm" {
   version = "1.36.1"
