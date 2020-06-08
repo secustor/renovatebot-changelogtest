@@ -6,5 +6,5 @@ module "consul" {
   version   = "0.1.0"
 }
 provider "azurerm" {
-  version = "1.36.1"
+  version = "1.44.0"
 }
