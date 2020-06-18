@@ -1,5 +1,5 @@
 provider "google-beta" {
-  version = "1.16.0"
+  version = "3.26.0"
 }
 
 provider "azurerm" {
