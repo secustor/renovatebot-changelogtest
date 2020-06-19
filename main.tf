@@ -1,7 +1,6 @@
-provider "google-beta" {
-  version = "1.16.0"
-}
-
-provider "azurerm" {
-  version = "=2.0.0"
+terraform {
+  required_providers {
+    aws = ">= 2.7.0"
+    google-beta = "2.0.0"
+  }
 }
