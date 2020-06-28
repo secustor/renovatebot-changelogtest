@@ -13,5 +13,5 @@ resource "helm_release" "example" {
   name       = "my-redis-release"
   repository = "https://kubernetes-charts.storage.googleapis.com" 
   chart      = "redis"
-  version    = "6.0.1"
+  version    = "6.4.5"
 }
