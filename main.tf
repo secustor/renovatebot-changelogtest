@@ -8,3 +8,10 @@ terraform {
 provider "azurerm" {
   version = "2.0.0"
 }
+
+resource "helm_release" "example" {
+  name       = "my-redis-release"
+  repository = "https://kubernetes-charts.storage.googleapis.com" 
+  chart      = "redis"
+  version    = "6.0.1"
+}
